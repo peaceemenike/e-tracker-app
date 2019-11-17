@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Report a crime|Police service</title>
+    <link rel="stylesheet" type="text/css" href="./Assest/css/all.min.css">
+    <style>
+      *{
+        margin:0px;
+      }
+       .container > i{
+           float: right;
+           padding: 0px;
+        }
+        .container > a{
+            float:right;
+        }
+
+        .container{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #0032A0;
+  top: 0px;
+  width: 100%;
+  
+  
+}
+
+
+ a{ 
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;  
+}
+
+.dropdown{
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn{
+  font-size: large;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0px;
+  cursor: pointer;
+  
+}
+.container a:hover, .dropdown:hover .dropbtn{
+  background-color: black;
+  border-radius: 10px;
+}
+
+ a:hover { 
+  background-color:black;
+  border-radius: 10px;
+  
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #0032A0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px(0,0,0,0,2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+}
+
+.dropdown-content a:hover{
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.active{
+  background-color: red;
+
+}
+
+.image{
+  filter: brightness(15%);
+  height: 650px;
+  width: 100%;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  /* transform: translate(-90%,-10%); */
+  background-color: #0032A0; 
+  color:white;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn:hover{
+  background-color: red;
+  color: black;
+}
+.img-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+
+}
+
+.writeup{
+  display: flex;
+  background-color: #fff;
+}
+
+.writeup .subwrite {
+  background-color: white;
+  margin:10px ;
+  font-size: 30px;
+  text-align: center;
+}
+
+.writeup .form{
+  background-color: lightgray;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  background-color: lightgray;
+  padding: 40px 20px;
+}
+
+input[type="button"]{
+  background-color: whitesmoke;
+  border: 0px;
+  height: 30px;
+  width: 70%;
+  cursor: pointer;
+}
+input[type="button"]:hover{
+  background-color: #0032A0;
+  color: white;
+}
+  
+  /* box-sizing: border-box; */
+
+  .footer{
+    background-color: black;
+    display: flex;
+    padding: 0px; 
+    
+  }
+
+  .footer .footer-content{
+    width: 33.33%;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+    
+  }
+ 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <a href="#"> <i class="fas fa-search-location fa-1x" style="color: white;"></i></a>
+         <div class="dropdown">
+           <button class="dropbtn">Panic Mode<i class="fas fa-caret-down" style="padding-left:5px;"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="#">Homicide</a>
+             <a href="#">Rape</a>
+             <a href="#">Burglary</a>
+             <a href="#">Road Accident</a>
+             <a href="#">In-Distress</a>
+             <a href="#">Theft</a>
+             <a href="#">Kidnapping</a>
+             <a href="#">Others</a>
+           </div>
+          </div>
+          <div class="dropdown">
+        <button class="dropbtn">Incident<i class="fas fa-caret-down" style="padding-left:5px;"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Report an Incident</a>
+        </div>
+         </div>
+
+        <div class="dropdown">
+        <button class="dropbtn">Report<i class="fas fa-caret-down" style="padding-left:5px;"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Accident</a>
+          <a href="#">Rape</a>
+          <a href="#">Crime</a>
+          <a href="#">Kidnapp</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn" class="active">Solutions<i class="fas fa-caret-down" style="padding-left:5px;"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Real-time Location Tracking</a>
+          <a href="#">Device Monitoring</a>
+          <a href="#">Fraudulent Monitoring</a>
+          <a href="#">Accident Monitoring</a>
+        </div>
+      </div>
+
+        <img src="./Assest/police logo.jpg" alt="Logo" style="cursor: pointer;"/>
+    </div>
+    <div class="img-container">
+    <img  class="image" src="./Assest/police tracker.jpeg" alt="police tracker">
+    <div class="centered">WE ARE AT YOUR SERVICE</div>
+           <!-- view demo -->
+    <button class="btn">View Demo</button>
+  </div>
+  <div class="writeup">
+    <div class="subwrite" style="width: 15%;"></div>
+    <div class="subwrite" style="width: 70%;">
+      <h1>WHAT IS HAPPENING WHERE YOU ARE?</h1>
+      <p>If you have witness or been victim of crime, please enter your report here. It will help us to track the suspect using our tracking tool.</p>
+    </div>
+    <div class="subwrite" style="width: 15%;"></div>
+  </div>
+  <div class="writeup">
+    <div style="width: 25%;"></div>
+    <div style="width:50%;" class="form"><form><h1>Is the crime happenining right now,is the suspect still at the scene?</h1>
+     <input type="button" value="Yes">
+      <br>
+     <input type="button" value="No">
+      
+    </form>
+  </div>
+    <div style="width: 25%;"></div>
+  </div>
+  <footer>
+    <div>
+      <div class="footer">
+      <div class="footer-content"><h2>E-TRACK APP</h2></div>
+      <div class="footer-content"> <h2>Information and Services</h2></div>
+      <div class="footer-content"><h2>Partners</h2></div>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <p>Contact us</p>
+        <p>Find a police station near you</p>
+        <p>About E-Track App</p>
+        <p>News</p>
+        <p>Privacy</p>
+        <p>Cookies</p>
+        <p>Terms and Conditions</p>
+        <p>Accessibility</p>
+      </div>
+      <div class="footer-content">
+      <p></p>Real-time Life Tracking</p>
+      <p>Homicide</p>
+      <p>Rape</p>
+      <p>Traffic Accident</p>
+      <p>Kidnapping</p>
+      <p>Theft</p>
+      <p>In-distress</p>
+      <p>Others</p>
+      </div>
+
+      <div class="footer-content">
+
+        <p>Police</p>
+        <p>Security agencies</p>
+        <h3 style="padding-top: 70px;">Follow us on</h3>
+        <i class="fab fa-facebook-f" style="color: #4267B2; padding: 5px; cursor: pointer;"></i>
+        <i class="fab fa-twitter" style="color: #1DA1F2; padding: 5px; cursor: pointer;"></i>
+        
+        <i class="fab fa-instagram" style="color: #e95950; padding: 5px; cursor: pointer;"></i>
+
+        
+      </div>
+
+    </div> 
+      
+    </div>
+    <div style="background-color:black; color: white; text-align:center;padding:5px;margin-top:0px;">© copyright e-trackapp.com</div>
+
+  </footer>
+</body>
+</html>
