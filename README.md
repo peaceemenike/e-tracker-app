@@ -4,17 +4,6 @@ This is a static HTML/CSS-based prototype for a **crime-reporting portal** used 
 
 ---
 
-## 📁 Project Structure
-project-root/
-├── index.html
-├── Assest/
-│ ├── css/
-│ │ └── all.min.css # Font Awesome styles
-│ └── police logo.jpg # Logo image
-│ └── police tracker.jpeg # Background image
-
----
-
 ## 🌐 Features
 
 - **Navigation Bar**
