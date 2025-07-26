@@ -36,15 +36,6 @@ This is a static HTML/CSS-based prototype for a **crime-reporting portal** used 
 - CSS3
 - Font Awesome for icons
 - No JavaScript or backend yet
-
----
-
-## 🧪 How to Use
-
-1. Download or clone this repository.
-2. Ensure you maintain the folder structure (`Assest/css`, `Assest/images`, etc.).
-3. Open `index.html` in your web browser.
-
 ---
 
 ## 📌 Future Enhancements
